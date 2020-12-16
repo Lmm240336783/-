@@ -1,0 +1,45 @@
+.CollectInfo .CollectTitle {
+  padding: 40rpx 0;
+  background-color: #f3f4f6;
+}
+.CollectInfo .CollectTitle .Collect_tips {
+  border: 1px solid #dedede;
+  padding: 5rpx;
+  margin: 20rpx;
+  background-color: #fff;
+}
+.CollectInfo .CollectTitle .active {
+  color: var(--themeColor);
+  border: 1px solid currentColor;
+}
+.CollectInfo .Collectmian .goods_item {
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.CollectInfo .Collectmian .goods_item .item_img {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CollectInfo .Collectmian .goods_item .item_img image {
+  width: 70%;
+  height: 70%;
+}
+.CollectInfo .Collectmian .goods_item .item_count {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CollectInfo .Collectmian .goods_item .item_count .count_titel {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+.CollectInfo .Collectmian .goods_item .item_count .count_price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+}

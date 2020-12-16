@@ -1,0 +1,48 @@
+page {
+  height: 100%;
+}
+.cates {
+  height: 100%;
+}
+.cates .cates_container {
+  height: calc( 100vh - 90rpx );
+  display: flex;
+}
+.cates .cates_container .left_count {
+  flex: 2;
+}
+.cates .cates_container .left_count .leftcount_item {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #2b2727;
+}
+.cates .cates_container .left_count .active {
+  color: var(--themeColor);
+  border-left: 1px solid currentColor;
+}
+.cates .cates_container .right_count {
+  flex: 5;
+}
+.cates .cates_container .right_count .count_gounp .gounp_title {
+  display: flex;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+}
+.cates .cates_container .right_count .count_gounp .gounp_title .delimiter {
+  color: #ccc;
+}
+.cates .cates_container .right_count .count_gounp .gounp_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cates .cates_container .right_count .count_gounp .gounp_list navigator {
+  width: 33.33%;
+  text-align: center;
+}
+.cates .cates_container .right_count .count_gounp .gounp_list navigator image {
+  width: 50%;
+}

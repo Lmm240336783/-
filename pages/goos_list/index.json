@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Search":"../../components/SearchInput/SearchInput",
+    "Tabs":"../../components/Tabs/Tabs"
+
+  },
+  "navigationBarTitleText": "容嬷嬷扎你的列表",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

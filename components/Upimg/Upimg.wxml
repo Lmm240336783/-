@@ -1,0 +1,4 @@
+<view class="up_img_warp">
+  <icon type="clear" size="23" color="red"></icon>
+  <image mode="aspectFill" src="{{src}}"></image>
+</view>

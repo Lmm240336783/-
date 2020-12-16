@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+
+    "Search":"../../components/SearchInput/SearchInput"
+  },
+  "navigationBarTitleText": "容嬷嬷扎你的首页"
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs",
+    "Upimg":"../../components/Upimg/Upimg"
+
+
+  },
+  "navigationBarTitleText": "容嬷嬷扎你的意见反馈"
+
+}

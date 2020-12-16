@@ -1,0 +1,69 @@
+page {
+  background-color: #dedede;
+}
+Tabs {
+  background: white;
+}
+.feedback_main {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 20rpx;
+}
+.feedback_main .main_tips {
+  width: 100%;
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.feedback_main .main_tips .tips_item {
+  width: 30%;
+  height: 60rpx;
+  background: white;
+  margin: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback_main .main_content {
+  background-color: white;
+}
+.feedback_main .main_content textarea {
+  width: 100%;
+  padding: 20rpx;
+}
+.feedback_main .main_content .content_sub {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+}
+.feedback_main .main_content .content_sub button {
+  margin: 0;
+  width: 90rpx;
+  height: 90rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40rpx;
+  color: #ccc;
+  background-color: #dedede;
+}
+.feedback_main .main_content .content_sub .up_img_item {
+  margin-left: 20rpx;
+
+}
+.feedback_main .feedback_button {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.feedback_main .feedback_button button {
+  width: 34%;
+  margin: 0;
+  display: flex;
+  background-color: var(--themeColor);
+  font-size: 30rpx;
+  color: #dedede;
+  justify-content: center;
+  align-items: center;
+}

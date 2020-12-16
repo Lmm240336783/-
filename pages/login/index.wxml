@@ -1,0 +1,2 @@
+<button type="primary" plain open-type="getUserInfo"  bindgetuserinfo="handgetuserInfo">登录</button>
+<!-- <button bindtap="ass">主次</button> -->

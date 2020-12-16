@@ -1,0 +1,31 @@
+<view class="cates">
+    <!-- 搜索开始 -->
+    <Search></Search>
+    <!-- 搜索结束 -->
+    <!-- 列表开始 -->
+    <view class="cates_container">
+        <!-- 列表左边部分 -->
+        <scroll-view class="left_count" scroll-y="true">
+            <view class="leftcount_item {{index===currenIndex?'active':''}}" bindtap="meuntClick" data-index='{{index}}' wx:for="{{leftMenuList}}" wx:key="*this">{{item}}</view>
+        </scroll-view>
+        <!-- 列表右半部分 -->
+        <scroll-view class="right_count" scroll-top="{{scrolltop}}" scroll-y="true">
+            <view class="count_gounp" wx:for="{{rightMenuList}}" wx:key="cat_id">
+                <!-- 表题 -->
+                <view class="gounp_title">
+                    <text class="delimiter">/</text>
+                    <text class="titel">{{item.cat_name}}</text>
+                    <text class="delimiter">/</text>
+                </view>
+                <!-- 内容 -->
+                <view class="gounp_list">
+                    <navigator wx:for="{{item.children}}" wx:for-item="itemone" wx:key="cat_id" url="/pages/goos_list/index?cid={{itemone.cat_id}}">
+                        <image mode="widthFix" src="{{itemone.cat_icon}}"></image>
+                        <view class="list_name">{{itemone.cat_name}}</view>
+                    </navigator>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+    <!-- 列表结束 -->
+</view>

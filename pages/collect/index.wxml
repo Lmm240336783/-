@@ -1,0 +1,26 @@
+<view>
+  <view>
+    <Tabs  tabs="{{tabs}}" bindItemChangs="handleItemChangs"></Tabs>
+  </view>
+  <view class="CollectInfo">
+    <view class="CollectTitle">
+        <text class="Collect_tips active">全部</text>
+        <text class="Collect_tips">正在热卖</text>
+        <text class="Collect_tips">即将上线</text>
+    </view>
+    <view class="Collectmian">
+      <navigator class="goods_item" wx:for="{{collect}}" wx:key="goods_id" url="/pages/goos_detail/index?goods_id={{item.goods_id}}">
+          <!--左侧图片容器  -->
+          <view class="item_img">
+            <image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'http://wx4.sinaimg.cn/mw690/6a04b428gy1fyrlf1utteg20gm0m6jwv.gif'}}">
+            </image>
+          </view>
+          <!-- 右侧列表内容 -->
+          <view class="item_count">
+            <view class="count_titel">{{item.goods_name}}</view>
+            <view class="count_price">￥:{{item.goods_price}}</view>
+          </view>
+        </navigator>
+    </view>
+  </view>
+</view>

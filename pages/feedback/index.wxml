@@ -1,0 +1,29 @@
+<view>
+  <Tabs tabs="{{tabs}}" bindItemChangs="handleItemChangs"></Tabs>
+  <view class="feedback_main">
+      <view class="main_title">问题的种类</view>
+      <view class="main_tips">
+        <view class="tips_item">功能建议</view>
+        <view class="tips_item">购买遇到问题</view>
+        <view class="tips_item">性能问题</view>
+        <view class="tips_item">其他</view>
+      </view>
+      <view class="main_content">
+        <textarea placeholder="请描述一下你对容嬷嬷的描述" value="{{textval}}" bindinput="handleTextval">
+        </textarea>
+        <view class="content_sub">
+          <button bindtap="handChooseImg" Imgarr="{{Imgarr}}">+</button>
+          <view class="up_img_item" wx:for="{{Imgarr}}" wx:key='item' bindtap="handImg" data-index="{{index}}">
+            <Upimg src="{{item.path}}"></Upimg>
+          </view>
+        </view>
+      </view>
+      <view class="feedback_button">
+        <button type="warn" bindtap="sumBit"> 
+          <icon type="success_no_circle" color="#fff"></icon>
+          提交
+        </button>
+      </view>
+  </view>
+</view>
+

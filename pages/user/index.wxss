@@ -1,0 +1,111 @@
+page {
+  background-color: #edece8;
+  color: #666666;
+}
+.user_info_warp {
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+  background: var(--themeColor);
+}
+.user_info_warp .user_userinfo_warp .backimage {
+  position: relative;
+  height: 45vh;
+  filter: blur(20rpx);
+}
+.user_info_warp .user_userinfo_warp .user_info {
+  height: 150rpx;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user_info_warp .user_userinfo_warp .user_info image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.user_info_warp .user_userinfo_warp .user_info .user_name {
+  color: #ffffff;
+  font-size: 40rpx;
+}
+.user_info_warp .login {
+  position: absolute;
+  left: 42%;
+  top: 30%;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+  padding: 30rpx;
+  font-size: 38rpx;
+  border-radius: 10px;
+}
+.user_mainCount {
+  position: relative;
+}
+.user_mainCount .user_main {
+  width: 90%;
+  background: white;
+  position: absolute;
+  top: -40rpx;
+  left: 5%;
+}
+.user_mainCount .user_main .history_warp {
+  display: flex;
+  border-bottom: 20rpx solid #edece8;
+}
+.user_mainCount .user_main .history_warp navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+  height: 110rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user_mainCount .user_main .history_warp navigator .his_name {
+  color: var(--themeColor);
+}
+.user_mainCount .userInfo {
+  border-bottom: 20rpx solid #edece8;
+}
+.user_mainCount .userInfo .userInfo_title {
+  padding: 20rpx;
+  border-bottom: 10rpx solid #edece8;
+}
+.user_mainCount .userInfo .userInfo_count {
+  display: flex;
+}
+.user_mainCount .userInfo .userInfo_count navigator {
+  flex: 1;
+  height: 110rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+}
+.user_mainCount .address_wrap {
+  padding: 20rpx;
+  border-bottom: 20rpx solid #edece8;
+  padding-bottom: 100rpx;
+}
+.user_mainCount .app_infoCount .app_itemInfo {
+  border: 4rpx solid #edece8;
+  padding: 20rpx;
+}
+.user_mainCount .app_infoCount .app_itemInfo:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+.user_mainCount .app_infoCount .app_itemInfo:last-child {
+  border-bottom: 20rpx solid #edece8;
+}
+.user_mainCount .app_tJian {
+  padding: 20rpx;
+  border-bottom: 20rpx solid #edece8;
+}

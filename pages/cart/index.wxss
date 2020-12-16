@@ -1,0 +1,137 @@
+page {
+  padding-bottom: 90rpx;
+}
+.cart_userinfo .cart_button {
+  padding: 20rpx;
+}
+.cart_userinfo .cart_button button {
+  width: 60%;
+}
+.cart_userinfo .user_info {
+  width: 100%;
+  display: flex;
+  padding: 20rpx;
+}
+.cart_userinfo .user_info .user_info {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+.cart_userinfo .user_info .user_phone {
+  text-align: right;
+  flex: 2;
+}
+.cart_count .cart_title {
+  padding: 30rpx;
+  font-size: 36rpx;
+  border-top: 1rpx solid var(--themeColor);
+  border-bottom: 1rpx solid var(--themeColor);
+}
+.cart_count .cart_listinfo .listinfo_item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 2rpx solid #666666;
+}
+.cart_count .cart_listinfo .listinfo_item .item_chk {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_count .cart_listinfo .listinfo_item navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+.cart_count .cart_listinfo .listinfo_item navigator image {
+  width: 60%;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+  color: #666666;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infotext {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infoprice {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infoprice .price {
+  color: var(--themeColor);
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infoprice .numbercount {
+  display: flex;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infoprice .numbercount .numStyle {
+  width: 55rpx;
+  height: 55rpx;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_count .cart_listinfo .listinfo_item .list_info .infoprice .numbercount .num {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_tool {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+}
+.footer_tool .all_chk {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.footer_tool .tool_price {
+  flex: 4;
+  text-align: right;
+  padding-right: 15rpx;
+}
+.footer_tool .tool_price .tool_pricecount .textstyle {
+  font-size: 32rpx;
+  color: var(--themeColor);
+}
+.footer_tool .pay_warp {
+  height: 100%;
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: var(--themeColor);
+  font-size: 34rpx;
+}
+.NoDongXi {
+  width: 100%;
+  height: 450rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NoDongXi .imgstyle {
+  width: 80%;
+  height: 80%;
+}

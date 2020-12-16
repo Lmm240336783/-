@@ -1,0 +1,15 @@
+.up_img_warp{
+  width: 90rpx;
+  height: 90rpx;
+  border: 1px solid red;
+  position: relative;
+}
+.up_img_warp icon{
+  position: absolute;
+  top: -30rpx;
+  right: -30rpx;
+}
+.up_img_warp image{
+  width: 100%;
+  height: 100%;
+}

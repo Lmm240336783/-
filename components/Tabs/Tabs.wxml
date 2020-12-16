@@ -1,0 +1,12 @@
+<view class="tabs">
+  <view class="tabs_title">
+        <!-- 点击的时候触发 handItemChang-->
+    <view class="title_item  {{item.inActive?'active':''}}" 
+    wx:for="{{tabs}}" wx:key="id" data-index="{{index}}" bindtap="handItemChang">
+      {{item.value}}
+    </view> 
+  </view>
+  <view class="tabs-count">
+    <slot></slot>
+  </view>
+</view> 

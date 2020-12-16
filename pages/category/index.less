@@ -1,0 +1,66 @@
+page {
+    height: 100%;
+}
+
+.cates {
+    height: 100%;
+
+    .cates_container {
+        height: ~'calc( 100vh - 90rpx )';
+        display: flex;
+
+        .left_count {
+            flex: 2;
+
+            .leftcount_item {
+                height: 80rpx;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: white;
+                color: #2b2727;
+            }
+
+            .active {
+                color: var(--themeColor);
+                border-left: 1px solid currentColor;
+            }
+        }
+
+        .right_count {
+            flex: 5;
+
+            .count_gounp {
+
+                .gounp_title {
+                    display: flex;
+                    height: 80rpx;
+                    justify-content: center;
+                    align-items: center;
+
+                    .delimiter {
+                        color: #ccc;
+                    }
+
+                    .titel {}
+                }
+
+                .gounp_list {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    navigator {
+                        width: 33.33%;
+                        text-align: center;
+
+                        image {
+                            width: 50%;
+                        }
+
+                        .list_name {}
+                    }
+                }
+            }
+        }
+    }
+}

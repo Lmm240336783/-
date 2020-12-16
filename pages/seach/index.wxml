@@ -1,0 +1,10 @@
+
+<view class="seach_row">
+  <input placeholder="请输入你要搜索的关键词" value="{{value}}" bindinput="handinput" bindblur=""  />
+  <button hidden="{{!isFocus}}" bindtap="cancel">取消</button>
+</view>
+<view class="search_count">
+  <navigator class="goods_item" wx:for="{{allData}}" wx:key="goods_id" url="/pages/goos_detail/index?goods_id={{item.goods_id}}">
+       <view class="count_titel">{{item.goods_name}}</view>
+  </navigator>
+</view>
